@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox example</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+<body class="body">
+    <div class="main__container">
+        <div class="title__container">
+            <h1>Flexbox задачи для школы</h1>
+            <img src="./img/spring_logo.svg" alt="logo spring">
+        </div>
+
+        <button data-btn-flag="true" class="btn" data-id="1" id="btn">1 задача</button>
+        <section id="1" class="hide section__container">
+            <h3>Задача 1</h3>
+            <p>Создание горизонтальной строки <br>
+                Задача: Расположить три блока в одну строку, равномерно распределив пространство.
+            </p>
+            <div class="container__task">
+                <div class="item">Блок 1</div>
+                <div class="item">Блок 2</div>
+                <div class="item">Блок 3</div>
+            </div>
+
+        </section>
+        <button data-btn-flag="true" class="btn" data-id="2" id="btn">2 задача</button>
+        <section id="2" class="hide section__container">
+            <h3>Задача 2</h3>
+            <p>Вертикальное центрирование<br>
+                Задача: Центрировать по вертикали и горизонтали один блок внутри контейнера.</p>
+
+            <div class="container-center">
+                Центрированный блок
+            </div>
+
+        </section>
+        <button data-btn-flag="true" class="btn" data-id="3" id="btn">3 задача</button>
+        <section id="3" class="hide section__container">
+            <h3>Задача 3</h3>
+            <p>Перенос элементов<br>
+                Задача: Создать строку из нескольких элементов, которая переносится на новую строку при нехватке места.
+            </p>
+            <div class="wrap-container">
+                <div class="item">Элемент 1</div>
+                <div class="item">Элемент 2</div>
+                <div class="item">Элемент 3</div>
+                <div class="item">Элемент 4</div>
+            </div>
+
+        </section>
+        <button data-btn-flag="true" class="btn" data-id="4" id="btn">4 задача</button>
+        <section id="4" class="hide section__container">
+            <h3>Задача </h3>
+            <p>Изменить направление элементов <br>
+                Создайте контейнер с классом .column-container, внутри которого находятся несколько элементов. <br>
+                Используйте Flexbox, чтобы расположить эти элементы вертикально (в колонку).</p>
+            <div class="column-container">
+                <div class="item">Элемент 1</div>
+                <div class="item">Элемент 2</div>
+                <div class="item">Элемент 3</div>
+            </div>
+        </section>
+    </div>
+</body>
+<script type="text/javascript" src="./main.js"></script>
+
+</html>

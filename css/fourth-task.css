@@ -1,0 +1,13 @@
+.column-container {
+  display: flex;             /* Включаем Flexbox */
+  flex-direction: column;    /* Располагаем элементы вертикально */
+  gap: 10px;                 /* Опционально: добавляем отступы между элементами */
+  border: 1px solid #fd0000;    /* Для наглядности */
+  padding: 10px;
+}
+
+.item {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #999;
+}

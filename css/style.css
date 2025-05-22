@@ -1,0 +1,51 @@
+@import url("./normolize.css");
+@import url("./first-task.css");
+@import url("./second-task.css");
+@import url("./third-task.css");
+@import url("./fourth-task.css");
+
+.body {
+  background-color: #ffdc81;
+  padding-top: 2rem;
+}
+
+.main__container {
+  width: 1040px;
+  margin: 0 auto;
+  padding: 4rem;
+  border-left: 1px solid gray;
+  display: flex;
+  flex-flow: column;
+  min-height: 1080px;
+}
+.title__container{
+  display: flex;
+  min-width: 800px;
+  justify-content: space-around;
+}
+.show__section {
+  display: inline-block;
+  transition: 1300ms;
+}
+
+.hide {
+  display: none;
+  transition: 1300ms;
+}
+
+
+.btn {
+  padding: 10px 20px;
+  max-width: max-content;
+  background: aliceblue;
+  border-radius: 5px;
+  margin-bottom: 4rem;
+  color: black;
+  margin-top: 2rem;
+}
+
+.btn:hover {
+  transform: scale(1.03);
+  background: linear-gradient(360deg, #ffdc81, 5%, #fff);
+  transition: 400ms;
+}
