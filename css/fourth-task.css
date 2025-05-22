@@ -1,8 +1,6 @@
 .column-container {
-  display: flex;             /* Включаем Flexbox */
-  flex-direction: column;    /* Располагаем элементы вертикально */
-  gap: 10px;                 /* Опционально: добавляем отступы между элементами */
-  border: 1px solid #fd0000;    /* Для наглядности */
+  display: flex;            
+  border: 1px solid #fd0000;   
   padding: 10px;
 }
 
